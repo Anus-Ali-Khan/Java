@@ -1,6 +1,6 @@
 // Tpe Conversion and Casting
 
-class TypeConversionandCasting
+class Hello
 {
     public static void main(String args[])
     {
