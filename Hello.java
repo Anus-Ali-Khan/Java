@@ -1,16 +1,17 @@
 class Hello
 {
-    public static void main(String a[])
+    public static void main(String arg[])
     {
-        int x = 6;
-        int y = 6;
-        double z = 8.5;
+        // Logical Operators
+        int x = 7;
+        int y = 5;
+        int a = 5;
+        int b = 9;
 
-        // boolean result = x > y;
-        // boolean result = x <= y ;
-        // boolean result = x != y ;
-        boolean result = z >= y ;
-
-        System.out.println(result);
+        // boolean result = x > y && a < b;
+        // boolean result = x < y || a < b;
+        boolean result = x < y;
+       
+        System.out.println(!result);
     }
 }
